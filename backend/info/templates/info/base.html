@@ -1,0 +1,25 @@
+<html>
+    <head>
+      {% if title %}
+      <title>{{ title }} - Mini-app</title>
+      {% else %}
+      <title>Welcome to Mini-app</title>
+      {% endif %}
+      <style>
+           h1 {
+            background: #D9FFAD; /* Цвет фона под заголовком */
+            color: green; /* Цвет текста */
+            padding: 2px; /* Поля вокруг текста */
+           }
+      </style>
+    </head>
+    <body>
+        <div>
+            Offices:
+            <a href="{% url 'index' %}">Main Page</a>
+        </div>
+        <hr>
+        <h1>Site for Offices</h1>
+        {% block content %}{% endblock %}
+    </body>
+</html>

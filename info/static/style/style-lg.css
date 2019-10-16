@@ -1,0 +1,281 @@
+﻿.active-office{
+    fill-opacity: 0.7 !important;
+}
+/*Окрашивение офисов при наведении*/
+.offices:hover {
+    stroke: #ffa31a !important;
+    fill-opacity: 0.8 !important;
+    stroke-width: 10px;
+    stroke-linejoin: round;
+    cursor: pointer;
+}
+
+body{
+    background-color: white;
+    color: #19285A;
+    background-image: url('/static/svg/background-xl.svg');
+    background-repeat: no-repeat;
+    background-position: top; 
+    background-size: cover;
+}
+
+.row{
+    text-align: center;
+}
+
+
+#titlePart{
+    margin: 0 2%;
+}
+
+#pageTitle{
+    padding-top: 3.5%;
+}
+
+#pageTitle h1{
+    text-align: center;
+    font-family: Helvetica;
+    font-size: 1.95vw !important;
+    border-bottom: 0.2vw solid #19285A;
+    margin-left: 12vw;
+    width: 18vw;
+}
+#pageTitle h4{
+    text-align: center;
+    margin-left: 12vw;
+    width: 18vw;
+    font-size: 1.7vw !important;
+} 
+
+.select-selected{
+    padding-top: 1vw;
+    padding-bottom: auto;
+}
+
+#icons img{
+    height: 10vw;
+    width: 10vw;
+    
+}
+#icons{
+    position: absolute;
+    top: 1vw;
+    left: 4%;
+}
+
+#rend-header{
+    display: none;
+}
+
+#rendPart h1{
+    margin-top: 15%;
+    font-size: 3vw;
+    text-align: center;  
+}
+
+#mapRowHandler{
+    margin-top: 5%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+#mapInfoBlock h4{
+	text-align: center;
+}
+
+#mapInfoBlock{
+	text-align: left;
+    height: 30vw;
+    padding-right: 10%;
+}
+
+#mapBlock{
+    flex: 0 0 50%;
+    max-width: 50%;
+    height: 30vw;
+}
+
+
+.photo-slideshow{
+    text-align: center;
+    margin-top: 1vw;
+}
+.photo-slideshow-modal{
+    margin-left: 3%;
+    margin-right: 3%;
+}
+
+.slider-for img{
+    height: 19.5vw !important;
+    border: 1px solid;
+    border-color: rgba(0,0,0,0.5);
+    background-color: white;
+    background-image: url(/static/slick/ajax-loader.gif);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 2vw;
+}
+
+.slider-nav img{
+    border: 1px solid;
+    border-color: rgba(0,0,0,0.5);
+    height: 5vw !important;
+    background-color: white;
+    background-image: url(/static/slick/ajax-loader.gif);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 2vw;
+}
+
+#more-info-panel-inner div{
+    text-align: left !important;
+    font-size: 1vw;
+}
+
+#modalContentThere p{
+    margin: 2vw 0 !important;
+}
+
+#more-info-panel-inner h4{
+    font-weight: bold;
+    font-size: 1.8vw;
+    margin-top: 4vw;
+    margin-bottom: 2vw;
+   
+}
+#more-info-panel-inner p{
+    margin-bottom: 0;
+    font-size: 1.15vw;
+} 
+
+.slick-prev::before, .slick-next::before{
+    color: black !important;
+}
+
+.slick-list {
+    width: 100%;
+}
+
+
+.slider-for-modal img{
+    border: 1px solid;
+    border-color: rgba(0,0,0,0.5);
+    height: 35vw;
+    background-color: white;
+    background-image: url(/static/slick/ajax-loader.gif);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 7vw;
+}
+
+.slider-for-modal{
+    background-color: whitesmoke;
+}
+
+
+
+.slider-nav-modal img{
+    border: 1px solid;
+    height: 10vw;
+    background-color: white;
+    background-image: url(/static/slick/ajax-loader.gif);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 7vw;
+}
+
+
+#svg-map{
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+#communicatePart{
+    margin-top:33%;
+    margin-left: 13%;
+}
+
+
+/* Классы у формы */
+
+#formBlock{
+    flex: 0 0 50%;
+    max-width: 50%;
+}
+
+#formBlock h1{
+    font-weight: bold;
+    font-size: 2vw;
+    text-align: center;
+    margin-bottom: 5vw;
+}
+.custom-select-a{
+	text-align: left;
+    margin-left: auto !important;
+    margin-right: auto !important;
+}
+
+
+.form-input {
+    padding: 0px !important;
+   	margin: 1vw;
+    width: 17vw;
+    height: 3vw;
+    font-size: 1vw;
+    -ms-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    -webkit-box-sizing: content-box;
+    box-sizing: content-box;
+    background-color: transparent; 
+    border-top: transparent !important;
+    border-left: transparent !important;
+    border-right: transparent !important;
+    border-bottom: 2px solid #19285A !important; 
+}
+
+.btn-input {
+    font-size: 1vw;
+    height: 4vw;
+    width: 15vw;
+   	margin-left: auto;
+   	margin-right: auto;
+   	margin-top: 5vw;
+   	margin-bottom: 5vw;
+    background-color: #19285A;
+    border-radius: 50px;
+}
+
+#contactBlock{
+    margin-left: -5%;
+}
+
+#contactBlock h1{
+    font-weight: bold;
+    margin-top: 30%;
+    font-size: 2vw;
+    margin-bottom: 1vw;
+}
+
+#contactBlock p{
+    font-size: 1vw;
+    height: 4vw;
+    padding-top: 3vw;
+}
+
+#contactBlock a{
+    color: #19285A;
+}
+
+#footer{
+    display: none;
+}
+
+.my-alert{
+    top: -60px;
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+    text-align: center;
+    position: fixed;
+    transition: 1s;
+}

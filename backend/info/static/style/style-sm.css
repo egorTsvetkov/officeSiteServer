@@ -1,0 +1,210 @@
+﻿@media only screen and (max-width : 791px) and (min-width: 576px){
+    #footer p{
+        font-size: 1rem !important;
+    }
+
+    #rendPart h1{
+        font-size: 2rem !important;
+    }
+
+    #formBlock h1{
+        font-size: 1.5rem !important;
+    }
+
+    .form-input{
+        font-size: 2.3vw !important;
+        width: 38vw !important;
+    }
+    .select-selected{
+        padding-top: 5px !important;
+    }
+    .btn-input{
+        width: 30vw !important;
+        font-size: 2vw !important;
+    }
+}
+
+
+@media only screen and (max-width : 791px) {
+    #mapInfoBlock{
+        display: none;  
+    }
+    #mapBlock{
+        flex: none;
+        max-width: none;
+        margin: 0 auto;
+    }
+    #rend-header{
+        display: block;
+    }
+
+    .container-fluid{
+        padding: 0px !important;
+        width: 100% !important;
+    }
+   body{
+    background-color: white;
+    color: #19285A;
+    background-image: url('/static/svg/background-sm-top.svg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    } 
+
+    #pageTitle{
+    padding-top: 10%;
+    }
+
+    #titlePart{
+    margin: 0 5%;
+    }
+
+    #pageTitle h1{
+        font-family: Helvetica;
+        font-size: 5vw !important;
+        border-bottom: 2px solid #19285A;
+        display: inline-block;
+        margin-bottom: 1px;
+        margin-left: 2vw;
+        width: 46vw;
+        text-align: left;
+    }
+
+    #pageTitle h4{
+        margin-left: 2vw;
+        width: 63vw;
+        border: none;
+        text-align: left;
+        font-size: 5vw !important;
+    }
+
+    #icons img{
+        height: 35vw;
+        width: 35vw;
+    }
+    #icons{
+        left:60vw;
+        position: absolute;
+    }
+
+    #rendPart h1{
+        margin-top: 30%;
+        font-size: 20px;
+        text-align: center;  
+        margin-bottom: 30px;
+    }
+
+    #mapRowHandler{
+        margin-top: 5%;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+
+    
+    #mapBlock{
+        height: auto;
+    }
+   
+
+    #section-bot{
+        margin-top: 5%;
+        background-color: #FFC65D;
+    }
+
+    #communicatePart{
+        margin-top:10%;
+        margin-bottom: 0px;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+
+    /* Классы у формы */
+
+#formBlock{
+    flex: none;
+    max-width: none;
+}
+
+
+    #formBlock h1{
+        margin-top: 10px;
+        font-size: 20px;
+        text-align: center;
+        margin-bottom: 25px;
+    }
+
+    .select-selected{
+        padding-top: 10px ;
+    }
+
+    .custom-select-a{
+        margin-top: 5px !important;
+        margin-bottom: 5px !important;
+        height: 30px;
+        text-align: left;
+    }
+    .form-input {
+        padding: 0px !important;
+        margin: 5px 0;
+        width: 150px;
+        height: 30px;
+        font-size: 9px;
+    }
+
+    .btn-input {
+        font-size: 10px;
+        margin-top: 20px;
+        height: 40px;
+        width: 130px;
+        margin-bottom: 20px;
+        margin-left: auto;
+        margin-right: auto;
+        background-color: #19285A;
+    }
+
+
+    #contactBlock{
+        display: none;
+        text-align: center;
+        padding-left: 8%
+    }
+
+    #contactBlock h1{
+        font-size: 30px;
+        margin-bottom: 30px;
+    }
+
+    #contactBlock p{
+        font-size: 20px;
+        margin: 50px 0px;
+    }
+
+    #footer{
+        width: 100%;
+        display: inline-block;
+        background-color: #19285A;
+        height: 60px;
+        color: #EEF0FA;
+    }
+
+    #footer a{
+        color: white !important;
+    }
+
+    #footer p{ 
+        display: inline;
+        font-size: 10px;
+        margin: 5px;
+    }
+    #footer div{
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 10px;
+        margin-bottom: 0px;
+    } 
+
+    
+}
+
+
+
