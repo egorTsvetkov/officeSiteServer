@@ -248,7 +248,7 @@ def getOfficeInfo(request, officeId):
         for elem in union:
             uni_arr.append(str(elem))
             title += Room.objects.filter(id=elem)[0].name + ', '
-    title = title[:-2]
+        title = title[:-2]
 
     print(uni_arr)
     print(title)
